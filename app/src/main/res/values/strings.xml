@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">cahiercharge</string>
+    <string name="nomprojet"> Lorem Ipsum</string>
+    <string name="nomutilisateur"> Mrs.francois DUPONT</string>
+    <string name="mailtilisateur"> dupont@gmail.com </string>
+    <string name="numutilisateur"> 0620600282 </string>
+    <string name="datecreation"> 04/06/2019 </string>
+
+    <string name="formnomentreprise"> nom de l/entreprise</string>
+    <string name="formnomprenom"> Votre nom et prenom</string>
+    <string name="formprojet"> Nom du projet </string>
+    <string name="formemail"> Votre adresse mail </string>
+    <string name="formnum">  Votre numéro de telephone </string>
+    <string name="formactivite"> Votre activité principal</string>
+    <string name="formdescription"> Description de la société </string>
+
+</resources>

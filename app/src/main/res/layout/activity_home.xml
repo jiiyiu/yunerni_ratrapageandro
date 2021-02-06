@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <RelativeLayout
+
+
+    <ImageView
+        android:layout_width="442dp"
+        android:layout_height="131dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <LinearLayout
+
+    <EditText
+        android:id="@+id/formsociete"
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nom de votre société"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/formnom"
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="votre nom"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Votre numero de telephone"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:text="Votre adresse mail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+
+    <EditText
+        android:id="@+id/activite"
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="votre nom"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="427dp" >
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
+    </ListView>
+
+
+</LinearLayout>/
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

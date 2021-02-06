@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mainpic"
+        tools:layout_editor_absoluteX="0dp"
+        android:alpha="0.6"/>
+
+    <LinearLayout
+    <ImageView
+        android:layout_width="700dp"
+        android:layout_height="866dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="383dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="mdpererererererer"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <Button
+        android:id="@+id/connexion"
+        android:layout_width="455dp"
+        android:layout_height="82dp"
+        android:text="connexion"
+        app:backgroundTint="#DE6363"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="773dp" />
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="458dp"
+        android:layout_height="83dp"
+        android:text="inscrire"
+        app:backgroundTint="#DE6363"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="881dp" />
+
+
+</LinearLayout>
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
